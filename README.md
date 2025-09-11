@@ -6,7 +6,7 @@
 
 **Summarify** is a simple yet powerful desktop application that instantly summarizes any online article. Just provide a URL, and this tool will fetch, analyze, and present the key information—including a summary and sentiment analysis—in a clean graphical user interface (GUI).
 
----
+
 
 ## 📋 Table of Contents
 - [✨ Key Features](#-key-features)
@@ -18,7 +18,7 @@
 - [📖 How to Use](#-how-to-use)
 - [💡 Potential Improvements](#-potential-improvements)
 
----
+
 
 ## Key Features
 
@@ -28,7 +28,7 @@
 -   **Simple Desktop GUI**: A clean and user-friendly interface built with Python's native `tkinter` library.
 -   **Smart URL Handling**: Automatically validates and formats URLs to ensure they are correct before processing.
 
----
+
 
 ## How It Works
 
@@ -41,7 +41,7 @@ The application follows a straightforward process:
 5.  **Sentiment Analysis**: The full text of the article is analyzed by the `TextBlob` library to calculate its polarity score, which determines if the sentiment is positive, negative, or neutral.
 6.  **Display**: All the extracted information is neatly displayed in the read-only fields of the `tkinter` GUI. Error handling is included to manage cases where an article cannot be downloaded or parsed.
 
----
+
 
 ## Tech Stack
 
@@ -54,7 +54,7 @@ This project is built entirely in Python, relying on a few key libraries for its
 | **Sentiment Analysis** | `TextBlob`                                                 |
 | **Language Processing** | `NLTK` (Natural Language Toolkit) - a dependency for TextBlob |
 
----
+
 
 ## Getting Started
 
@@ -115,7 +115,7 @@ Follow these instructions to get the application running on your local machine.
     python your_script_name.py  # Replace with the actual name of your script
     ```
 
----
+
 
 ## How to Use
 
