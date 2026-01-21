@@ -63,28 +63,28 @@ Frontend (Static Files) → Controller Layer → Service Layer → Repository La
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    1. PRESENTATION LAYER                     │
-│                      (Controller Layer)                       │
+│                      (Controller Layer)                      │
 │  AuthController | EventController | CategoryController       │
-│  RegistrationController | UserController                      │
+│  RegistrationController | UserController                     │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                   2. SECURITY LAYER                          │
 │  JwtFilter | JwtUtil | SecurityConfig                        │
-│  AppUserDetailsService                                        │
+│  AppUserDetailsService                                       │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                   3. SERVICE LAYER                           │
-│  AuthService | EventService | RegistrationService           │
+│  AuthService | EventService | RegistrationService            │
 │  CategoryService | UserService                               │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
 │                   4. DATA ACCESS LAYER                       │
-│              (Repository/DAO Layer)                           │
+│              (Repository/DAO Layer)                          │
 │  UserRepository | EventRepository | RegistrationRepository   │
-│  CategoryRepository                                           │
+│  CategoryRepository                                          │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
