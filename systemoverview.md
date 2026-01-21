@@ -62,35 +62,35 @@ Frontend (Static Files) → Controller Layer → Service Layer → Repository La
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    1. PRESENTATION LAYER                     │
-│                      (Controller Layer)                      │
-│  AuthController | EventController | CategoryController       │
-│  RegistrationController | UserController                     │
+│                    1. PRESENTATION LAYER                    │
+│                      (Controller Layer)                     │
+│  AuthController | EventController | CategoryController      │
+│  RegistrationController | UserController                    │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   2. SECURITY LAYER                          │
-│  JwtFilter | JwtUtil | SecurityConfig                        │
-│  AppUserDetailsService                                       │
+│                   2. SECURITY LAYER                         │
+│  JwtFilter | JwtUtil | SecurityConfig                       │
+│  AppUserDetailsService                                      │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   3. SERVICE LAYER                           │
-│  AuthService | EventService | RegistrationService            │
-│  CategoryService | UserService                               │
+│                   3. SERVICE LAYER                          │
+│  AuthService | EventService | RegistrationService           │
+│  CategoryService | UserService                              │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   4. DATA ACCESS LAYER                       │
-│              (Repository/DAO Layer)                          │
-│  UserRepository | EventRepository | RegistrationRepository   │
-│  CategoryRepository                                          │
+│                   4. DATA ACCESS LAYER                      │
+│              (Repository/DAO Layer)                         │
+│  UserRepository | EventRepository | RegistrationRepository  │
+│  CategoryRepository                                         │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   5. DATABASE LAYER                          │
-│                    MySQL Database                            │
-│  users | events | categories | registrations                 │
+│                   5. DATABASE LAYER                         │
+│                    MySQL Database                           │
+│  users | events | categories | registrations                │
 └─────────────────────────────────────────────────────────────┘
 ```
 
